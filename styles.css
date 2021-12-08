@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flex-container {
+    background-color: black;
+   /* height: 25rem;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+    
+}
+
+.banner {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.news-info {
+    background-color: black;
+    border: 3px black
+    display: inline block;
+    padding: 2rem;
+
+}
+
+.news-info h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+.cards {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.card {
+    margin: 2rem 0;
+    background-color: #eee;
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgba(0 0 0 /.1);
+    max-width: 20rem;
+    
+}
+
+
+.card h2 {
+    margin-bottom: 3rem;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 5rem;
+    margin-top: 2rem;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footer h3 {
+    display: flex;
+    color: white;
+    margin: 2rem;
+}
+
+@media (min-width: 30rem) {
+    p{
+        font-size: 1rem;
+    }
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+.card {
+    flex-basis: 100%;
+    max-width: 20rem;
+    margin: 0 0 0 0;
+}
+.card:hover {
+    5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+}
+
